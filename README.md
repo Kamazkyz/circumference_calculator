@@ -16,7 +16,7 @@ i will use AI as minimum as possible, i did this code totally by hand with no AI
 - Make or CMake (optional, direct compilation via CLI is supported)
 - A terminal (Bash, Zsh, PowerShell, or CMD)
 
-## Installation & Run
+## Installation
 
 Clone the repository
    ```
