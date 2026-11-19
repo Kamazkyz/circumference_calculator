@@ -15,13 +15,7 @@ int main()
    std::cout << std::endl << "Whats the radius of your circunference in centimeters? ";
    std::cin  >>  r;
 
-   //checks if the input is positive
-   if (r <= -1) 
-   {
-      std::cerr << std::endl << "type a positive number!" << std::endl;
-      continue;
-   }
-   //clears the cache
+    //clears the cache
     if (std::cin.fail()) 
     {
       std::cin.clear(); 
@@ -29,6 +23,13 @@ int main()
       continue;
     }
 
+   //checks if the input is positive
+   if (r <= -1) 
+   {
+      std::cerr << std::endl << "type a positive number!" << std::endl;
+      continue;
+   }
+      
    //circumference
    double circumference = 2*PI*r;
    std::cout << "Your circunference is: " << circumference << " cm" << std::endl; 
